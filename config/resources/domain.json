@@ -1,0 +1,34 @@
+{
+  "prefixes": {
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "resources": {
+    "templates": {
+      "name": "template",
+      "class": "ext:Template",
+      "attributes": {
+        "title": {
+          "type": "string",
+          "predicate": "dct:title"
+        },
+        "matches": {
+          "type": "string-set",
+          "predicate": "ext:templateMatches"
+        },
+        "body": {
+          "type": "string",
+          "predicate": "ext:templateContent"
+        },
+        "contexts": {
+          "type": "uri-set",
+          "predicate": "ext:activeInContext"
+        },
+        "disabled-in-contexts": {
+          "type": "uri-set",
+          "predicate": "ext:disabledInContext"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/templates/"
+    }
+  }
+}
