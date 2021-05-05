@@ -47,8 +47,30 @@ services:
 
 Finally run `docker-compose up -d` again to have your custom version running.
 
-## adding SSL
- TODO
+## adding SSL [BETA]
+We've provided a configuration that automatically creates and configures ssl certificates through letsencrypt.
+
+edit the included `.env` file to include the https docker-compose file:
+```
+COMPOSE_FILE=docker-compose.yml:docker-compose.https.yml:docker-compose.override.yml
+```
+next edit the docker-compose.override.yml file to add your domain name:
+
+```
+version: "3.4"
+x-logging: &default-logging
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+services:
+  editor:
+    environment:
+      VIRTUAL_HOST: "editor.awesomecorp.com"
+      LETSENCRYPT_HOST: "editor.awesomecorp.com"
+      LETSENCRYPT_EMAIL: "info@awesomecorp.com" # get an email if your ssl certificate expires or something else goes wrong
+```
+
 ## overview of services
 TODO
 

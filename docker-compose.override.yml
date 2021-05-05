@@ -1,0 +1,7 @@
+version: "3.4"
+x-logging: &default-logging
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+
