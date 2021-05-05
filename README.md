@@ -72,6 +72,14 @@ services:
 ```
 
 ## overview of services
-TODO
+[overview of services](https://raw.githubusercontent.com/lblod/app-gn-embeddable/master/docs/gn-embeddable-services-overview.svg)
 
-
+ * [mu-identifier](https://github.com/mu-semtech/mu-identifier)
+ * [mu-dispatcher](https://github.com/mu-semtech/mu-dispatcher)
+ * [mu-cl-resources](https://github.com/mu-semtech/mu-cl-resources)
+ * [mu-cache](https://github.com/mu-semtech/mu-cache)
+ * [mu-authorization](https://github.com/mu-semtech/mu-authorization/)
+ * [delta-notifier](https://github.com/mu-semtech/delta-notifier/)
+ * [frontend-embeddable](https://github.com/lblod/frontend-embeddable-notule-editor)
+ * [codex-reverse-proxy](https://github.com/lblod/codex-reverse-proxy-service)
+ 
