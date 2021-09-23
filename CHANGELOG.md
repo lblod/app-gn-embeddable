@@ -1,5 +1,14 @@
 
 
+
+## 1.1.1 (2021-09-23)
+
+#### :bug: Bug Fix
+* [#3](https://github.com/lblod/app-gn-embeddable/pull/3) Fix double characters when typing ([@abeforgit](https://github.com/abeforgit))
+
+#### Committers: 1
+- Arne Bertrand ([@abeforgit](https://github.com/abeforgit))
+
 ## 1.1.0 (2021-09-14)
 
 #### :house: Internal
