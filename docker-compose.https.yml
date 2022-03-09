@@ -19,6 +19,7 @@ services:
       - certs:/etc/nginx/certs:ro
       - /var/run/docker.sock:/tmp/docker.sock:ro
   acme-companion:
+    restart: always
     image: nginxproxy/acme-companion
     volumes_from:
       - nginx-proxy
