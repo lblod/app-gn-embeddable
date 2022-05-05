@@ -1,6 +1,14 @@
 
 
 
+## 1.2.0 (2022-05-05)
+
+#### :rocket: Enhancement
+* [#4](https://github.com/lblod/app-gn-embeddable/pull/4) bump embeddable to 0.16.0 ([@nvdk](https://github.com/nvdk))
+
+#### Committers: 1
+- Niels V ([@nvdk](https://github.com/nvdk))
+
 ## 1.1.1 (2021-09-23)
 
 #### :bug: Bug Fix
