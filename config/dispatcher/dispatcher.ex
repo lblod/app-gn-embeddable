@@ -90,7 +90,7 @@ defmodule Dispatcher do
     forward conn, path, "http://cache/functionaris-status-codes/"
   end
 
-  match "_", %{ last_call: true } do
+  match "/_", %{ last_call: true } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end
 end
