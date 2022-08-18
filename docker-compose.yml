@@ -6,7 +6,7 @@ x-logging: &default-logging
     max-file: "3"
 services:
   editor:
-    image: lblod/frontend-embeddable-editor:0.17.0
+    image: lblod/frontend-embeddable-editor:0.17.1
     links:
       - identifier:backend
     restart: always
