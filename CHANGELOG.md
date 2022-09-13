@@ -2,6 +2,15 @@
 
 
 
+
+## 1.4.0 (2022-09-13)
+
+#### :house: Internal
+* [#8](https://github.com/lblod/app-gn-embeddable/pull/8) chore(deps): bump frontend to v0.18.1 ([@abeforgit](https://github.com/abeforgit))
+
+#### Committers: 1
+- Arne Bertrand ([@abeforgit](https://github.com/abeforgit))
+
 ## 1.3.0 (2022-08-18)
 
 #### :bug: Bug Fix
