@@ -3,6 +3,15 @@
 
 
 
+
+## 2.0.0 (2023-04-12)
+
+#### :house: Internal
+* [#9](https://github.com/lblod/app-gn-embeddable/pull/9) Update editor to 1.0.1 ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
+
 ## 1.4.0 (2022-09-13)
 
 #### :house: Internal
