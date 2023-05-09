@@ -19,6 +19,9 @@ defmodule Dispatcher do
   ###############
   # STATIC
   ###############
+  match "", %{ layer: :static } do
+    forward conn, [], "http://editor/test.html"
+  end
   match "/", %{ layer: :static } do
     forward conn, [], "http://editor/test.html"
   end
@@ -42,7 +45,6 @@ defmodule Dispatcher do
   get "/favicon.ico", %{ layer: :static }  do
     send_resp( conn, 404, "" )
   end
-
   ###############
   # API SERVICES
   ###############
