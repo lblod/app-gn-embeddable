@@ -5,6 +5,6 @@ x-logging: &default-logging
     max-size: "10m"
     max-file: "3"
 services:
-  editor:
+  identifier:
     ports:
       - 80:80
