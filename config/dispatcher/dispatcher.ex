@@ -48,7 +48,7 @@ defmodule Dispatcher do
   ###############
 
 
-  match "/codex/sparql/*path", %{ layer: :api_services, accept: %{ json: true } } do
+  match "/codex/sparql/*path", %{ layer: :api_services, accept: %{ sparql: true } } do
     forward conn, path, "http://codex-proxy/sparql/"
   end
 
