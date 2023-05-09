@@ -4,6 +4,15 @@
 
 
 
+
+## 2.1.0 (2023-05-09)
+
+#### :rocket: Enhancement
+* [#10](https://github.com/lblod/app-gn-embeddable/pull/10) move frontend behind dispatcher ([@nvdk](https://github.com/nvdk))
+
+#### Committers: 1
+- Niels V ([@nvdk](https://github.com/nvdk))
+
 ## 2.0.0 (2023-04-12)
 
 #### :house: Internal
