@@ -64,7 +64,7 @@ x-logging: &default-logging
     max-size: "10m"
     max-file: "3"
 services:
-  editor:
+  identifier:
     environment:
       VIRTUAL_HOST: "editor.awesomecorp.com"
       LETSENCRYPT_HOST: "editor.awesomecorp.com"
