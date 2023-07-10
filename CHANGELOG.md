@@ -5,6 +5,15 @@
 
 
 
+
+## 2.2.0 (2023-07-10)
+
+#### :house: Internal
+* [#11](https://github.com/lblod/app-gn-embeddable/pull/11) Update frontend to 1.2.0 ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
+
 ## 2.1.0 (2023-05-09)
 
 #### :rocket: Enhancement
