@@ -1,7 +1,8 @@
 # DEPRECATED: app-gn-embeddable
 
-:warning: This repository is no longer maintained and is thus unsupported. 
-Please look into the documentation of [@lblod/embeddable-say-editor](https://github.com/lblod/frontend-embeddable-notule-editor) instead to get more information on how to setup the say-editor in your project.
+> [!WARNING]  
+> This repository is no longer maintained and is thus unsupported. 
+> Please look into the documentation of [@lblod/embeddable-say-editor](https://github.com/lblod/frontend-embeddable-notule-editor) instead to get more information on how to setup the say-editor in your project.
 
 
 Backend systems and editor built on top of the Besluit and Mandaat model and application profile as defined on:
